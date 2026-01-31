@@ -17,7 +17,7 @@ const MyBooking = () => {
 
   return (
     <div className='px-6 md:px-16 lg:px-24 xl:px-32 2xl:px-48 mt-16 text-sm max-w-7xl'>
-        <Title title='Rezervasyonlarım' subTitle='Tüm araç rezervasyonlarınızı görüntüleyin ve yönetin.'/>
+        <Title title='Rezervasyonlarım' subTitle='Tüm araç rezervasyonlarınızı görüntüleyin ve yönetin.' align="left"/>
 
         <div>
           {bookings.map((booking, index)=>(
@@ -60,9 +60,9 @@ const MyBooking = () => {
 
               {/* Ücret */}
               <div className='md-col-span-1 flex flex-col justify-between gap-6'>
-                <div>
+                <div className='text-sm text-gray-500 text-right'>
                   <p>Toplam Ücret</p>
-                  <h1>{booking.price}{currency}</h1>
+                  <h1 className='text-2xl font-semibold text-primary'>{booking.price}{currency}</h1>
                   <p>Rezervasyon tarihi {booking.createdAt.split('T')[0]}</p>
                 </div>
               </div>
