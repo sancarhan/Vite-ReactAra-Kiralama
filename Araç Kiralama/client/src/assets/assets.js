@@ -95,15 +95,15 @@ export const menuLinks = [
 ]
 
 export const ownerMenuLinks = [
-    { name: "Dashboard", path: "/owner", icon: dashboardIcon, coloredIcon: dashboardIconColored },
-    { name: "Add car", path: "/owner/add-car", icon: addIcon, coloredIcon: addIconColored },
-    { name: "Manage Cars", path: "/owner/manage-cars", icon: carIcon, coloredIcon: carIconColored },
-    { name: "Manage Bookings", path: "/owner/manage-bookings", icon: listIcon, coloredIcon: listIconColored },
+    { name: "Gösterge Paneli", path: "/owner", icon: dashboardIcon, coloredIcon: dashboardIconColored },
+    { name: "Araç Ekle", path: "/owner/add-car", icon: addIcon, coloredIcon: addIconColored },
+    { name: "Araçları Yönet", path: "/owner/manage-cars", icon: carIcon, coloredIcon: carIconColored },
+    { name: "Rezervasyonları Yönet", path: "/owner/manage-bookings", icon: listIcon, coloredIcon: listIconColored },
 ]
 
 export const dummyUserData = {
   "_id": "6847f7cab3d8daecdb517095",
-  "name": "GreatStack",
+  "name": "Oğuzhan",
   "email": "admin@example.com",
   "role": "owner",
   "image": user_profile,
