@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { assets, dummyDashboardData } from '../../assets/assets'
+
 import Title from '../../components/owner/Title';
 
 const Dashboard = () => {
