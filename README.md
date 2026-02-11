@@ -32,7 +32,8 @@ Bu proje, araç listeleme, detay görüntüleme ve sayfalar arası yönlendirme 
 ---
 
 ## 📂 Proje Yapısı
-```src/
+```
+src/
 ├── components/ # Tekrar kullanılabilir UI bileşenleri
 ├── pages/ # Sayfa bileşenleri
 ├── assets/ # Görseller ve statik dosyalar
@@ -47,7 +48,7 @@ Bu proje, araç listeleme, detay görüntüleme ve sayfalar arası yönlendirme 
 
 Projeyi yerel ortamda çalıştırmak için:
 
-```bash
+```
 
 # Klasöre gir
 cd Vite-ReactAra-Kiralama
