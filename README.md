@@ -89,31 +89,57 @@ IMAGEKIT_URL_ENDPOINT=
 
 ```
 
-🗄️ Veritabanı
+<h2>🗄️ Veritabanı </h2>
+<ul>
+  <li>MongoDB Atlas veya lokal MongoDB ile çalışır</li>
+  <li>Mongoose ODM kullanılır</li>
+  <li>Model tabanlı veri yapısı vardır</li>
+</ul>
 
-MongoDB Atlas veya lokal MongoDB ile çalışır
-
-Mongoose ODM kullanılır
-
-Model tabanlı veri yapısı vardır
-
-🔐 Kimlik Doğrulama
+<h2>🔐 Kimlik Doğrulama </h2>
 <ul>
   <li>JWT tabanlı authentication</li>
+  <li>Login sonrası token üretimi</li>
+  <li>Protected route yapısı</li>
+  <li>Password hashleme: bcrypt</li>
 </ul>
-JWT tabanlı authentication
 
-Login sonrası token üretimi
 
-Protected route yapısı
+ <h2>🖼️ Medya Yönetimi</h2>
+<ul>
+  <li>ImageKit entegrasyonu</li>
+  <li>Araç görselleri yükleme</li>
+  <li>CDN tabanlı servis</li>
+</ul>
 
-Password hashleme: bcrypt
+<h2>🔧 Geliştirme Yol Haritası</h2>
+<ul>
+  <li>Admin paneli</li>
+  <li>Rezervasyon yönetimi</li>
+  <li>Ödeme entegrasyonu</li>
+  <li>Rol bazlı yetkilendirme</li>
+  <li>Dashboard istatistikleri</li>
+  <li>Gerçek zamanlı müsaitlik sistemi</li>
+</ul>
 
-🖼️ Medya Yönetimi
+<h2>👨‍💻 Geliştirici</h2>
+<ul>
+  <li><strong>Oğuzhan Sancar</strong></li>
+  <li>Full Stack Developer</li>
+  <li>React / Node.js / Django / C#</li>
+  <li>Modern Web Uygulamaları</li>
+  <li>GitHub: <a href="https://github.com/sancarhan">github.com/sancarhan</a></li>
+</ul>
 
-ImageKit entegrasyonu
+<h2>📄 Lisans</h2>
+<ul>
+  <li>Bu proje eğitim ve portföy amaçlı geliştirilmiştir.</li>
+  <li>İncelenebilir ve geliştirilebilir.</li>
+</ul>
 
-Araç görselleri yükleme
 
-CDN tabanlı servis
+
+
+
+
 
