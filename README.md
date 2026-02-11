@@ -1,103 +1,119 @@
-# 🚗 Vite React Araç Kiralama Uygulaması
+# 🚗 Full Stack Araç Kiralama Uygulaması (Vite + React + Node.js)
 
-# -- Gerekli Kurulumlar --
+## -- Gerekli Kurulumlar --
 
 ## 1.React uygulamalarında sayfalar arası geçiş (routing) yapmak için 👉 (npm install react-router-dom) kurulumu yapıyoruz.
 
-Modern web teknolojileri kullanılarak geliştirilmiş bir **Araç Kiralama Web Uygulaması**. Proje, hızlı geliştirme deneyimi sunan **Vite** ve bileşen tabanlı mimari sağlayan **React** ile oluşturulmuştur.
+## Modern web teknolojileri kullanılarak geliştirilmiş **Full Stack Araç Kiralama Platformu**.  
+Frontend tarafı **React + Vite**, backend tarafı **Node.js + Express + MongoDB** mimarisi ile oluşturulmuştur.
 
-Bu proje, araç listeleme, detay görüntüleme ve sayfalar arası yönlendirme gibi temel araç kiralama platformu ihtiyaçlarını karşılayacak şekilde frontend odaklı geliştirilmiştir.
+Kullanıcıların araçları görüntüleyebildiği, rezervasyon işlemleri yapabildiği ve medya yüklemelerinin yönetilebildiği gerçek dünya senaryosuna uygun bir proje yapısı hedeflenmiştir.
 
 ---
 
-## ⚡ Kullanılan Teknolojiler
+# 🧱 Teknoloji Stack
 
+## 🎨 Frontend
 - ⚛️ React
 - ⚡ Vite
 - 🧭 React Router DOM
-- 🎨 CSS / Tailwind / Bootstrap (kullandığına göre birini bırakabilirsin)
-- 📦 Modern JavaScript (ES6+)
+- 🎨 CSS / Tailwind / Bootstrap
+- Axios / Fetch API
+
+## 🖥️ Backend (Server)
+- 🟢 Node.js
+- 🚂 Express.js
+- 🍃 MongoDB + Mongoose
+- 🔐 JWT Authentication
+- 🔑 Bcrypt
+- 🖼️ ImageKit (dosya/görsel yükleme)
+- 🌐 REST API
 
 ---
 
-## ✨ Özellikler
+# ✨ Özellikler
 
-- 🚘 Araç listeleme ekranı
+## Frontend
+- 🚘 Araç listeleme
 - 📄 Araç detay sayfası
-- 🔍 Sayfalar arası routing
-- 🧩 Bileşen tabanlı mimari
+- 🔍 Routing sistemi
 - 📱 Responsive tasarım
-- ⚡ Vite ile hızlı geliştirme ve hot reload
+- ⚡ Hızlı Vite geliştirme ortamı
+
+## Backend
+- 👤 Kullanıcı kayıt & giriş sistemi
+- 🔐 JWT token üretimi
+- 🔒 Şifre hashleme (bcrypt)
+- 🚗 Araç verisi yönetimi
+- 🖼️ Görsel yükleme servisi entegrasyonu
+- 🗄️ MongoDB veritabanı bağlantısı
+- 📦 RESTful API yapısı
 
 ---
 
-## 📂 Proje Yapısı
+# 📂 Proje Klasör Yapısı
 ```
-src/
-├── components/ # Tekrar kullanılabilir UI bileşenleri
-├── pages/ # Sayfa bileşenleri
-├── assets/ # Görseller ve statik dosyalar
-├── App.jsx # Ana uygulama bileşeni
-└── main.jsx # Uygulama giriş noktası
-```
-
-
----
-
-## 🚀 Kurulum
-
-Projeyi yerel ortamda çalıştırmak için:
-
-```
-
-# Klasöre gir
-cd Vite-ReactAra-Kiralama
-
-# Bağımlılıkları yükle
-npm install
-
-# Geliştirme sunucusunu başlat
-npm run dev
-
-Tarayıcıdan aç:
-
-http://localhost:5173
+project-root/
+│
+├── client/ (veya root frontend)
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── assets/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ └── package.json
+│
+├── server/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── config/
+│ ├── middleware/
+│ ├── server.js
+│ └── package.json
+│
+└── README.md
 ```
 
-🎯 Amaç
+⚙️ Server Environment Değişkenleri
 
-Bu proje aşağıdaki hedeflerle geliştirilmiştir:
+Server klasörü içinde .env dosyası oluştur:
+```
+MONGODB_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
 
-React + Vite proje yapısını uygulamak
+IMAGEKIT_PUBLIC_KEY=
+IMAGEKIT_PRIVATE_KEY=
+IMAGEKIT_URL_ENDPOINT=
 
-Component mimarisi kurmak
+```
 
-Routing ve sayfa yönetimini uygulamak
+🗄️ Veritabanı
 
-Gerçek dünya senaryosuna uygun bir UI geliştirmek
+MongoDB Atlas veya lokal MongoDB ile çalışır
 
-Portföy için referans bir frontend proje oluşturmak
+Mongoose ODM kullanılır
 
-🔧 Geliştirme Fikirleri
+Model tabanlı veri yapısı vardır
 
-✅ Backend entegrasyonu (Node.js / Django / .NET)
+🔐 Kimlik Doğrulama
+<ul>
+  <li>JWT tabanlı authentication</li>
+</ul>
+JWT tabanlı authentication
 
-✅ Gerçek araç verisi API bağlantısı
+Login sonrası token üretimi
 
-✅ Kullanıcı girişi & rezervasyon sistemi
+Protected route yapısı
 
-✅ Admin paneli
+Password hashleme: bcrypt
 
-✅ Ödeme entegrasyonu
+🖼️ Medya Yönetimi
 
+ImageKit entegrasyonu
 
-# 👨‍💻 Geliştirici
+Araç görselleri yükleme
 
-Oğuzhan Sancar
-
-Yazılım geliştirici
-
-React / Node.js / Django / C#
-
-Web & Fullstack geliştirme odaklı
+CDN tabanlı servis
 
