@@ -75,6 +75,7 @@ project-root/
 │
 └── README.md
 ```
+---
 
 ⚙️ Server Environment Değişkenleri
 
@@ -88,6 +89,7 @@ IMAGEKIT_PRIVATE_KEY=
 IMAGEKIT_URL_ENDPOINT=
 
 ```
+---
 
 <h2>🗄️ Veritabanı </h2>
 <ul>
@@ -121,7 +123,7 @@ IMAGEKIT_URL_ENDPOINT=
   <li>Dashboard istatistikleri</li>
   <li>Gerçek zamanlı müsaitlik sistemi</li>
 </ul>
-
+---
 <h2>👨‍💻 Geliştirici</h2>
 <ul>
   <li><strong>Oğuzhan Sancar</strong></li>
