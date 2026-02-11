@@ -89,7 +89,7 @@ Portföy için referans bir frontend proje oluşturmak
 ✅ Ödeme entegrasyonu
 
 
-👨‍💻 Geliştirici
+# 👨‍💻 Geliştirici
 
 Oğuzhan Sancar
 
