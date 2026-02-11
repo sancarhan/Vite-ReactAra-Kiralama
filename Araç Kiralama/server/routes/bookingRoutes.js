@@ -10,4 +10,6 @@ bookingRouter.get('/user', protect, getUserBookings)
 bookingRouter.get('/owner', protect, getOwnerBookings)
 bookingRouter.post('/change-status', protect, changeBookingStatus)
 
+
+
 export default bookingRouter;
