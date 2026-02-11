@@ -32,12 +32,13 @@ Bu proje, araç listeleme, detay görüntüleme ve sayfalar arası yönlendirme 
 ---
 
 ## 📂 Proje Yapısı
-src/
+```src/
 ├── components/ # Tekrar kullanılabilir UI bileşenleri
 ├── pages/ # Sayfa bileşenleri
 ├── assets/ # Görseller ve statik dosyalar
 ├── App.jsx # Ana uygulama bileşeni
 └── main.jsx # Uygulama giriş noktası
+```
 
 
 ---
