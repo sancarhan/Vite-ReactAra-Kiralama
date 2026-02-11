@@ -47,8 +47,6 @@ src/
 Projeyi yerel ortamda çalıştırmak için:
 
 ```bash
-# Repoyu klonla
-git clone https://github.com/sancarhan/Vite-ReactAra-Kiralama.git
 
 # Klasöre gir
 cd Vite-ReactAra-Kiralama
@@ -62,6 +60,7 @@ npm run dev
 Tarayıcıdan aç:
 
 http://localhost:5173
+```
 
 🎯 Amaç
 
@@ -88,6 +87,7 @@ Portföy için referans bir frontend proje oluşturmak
 ✅ Admin paneli
 
 ✅ Ödeme entegrasyonu
+
 
 👨‍💻 Geliştirici
 
