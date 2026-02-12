@@ -125,7 +125,51 @@ IMAGEKIT_URL_ENDPOINT=
   <li>Gerçek zamanlı müsaitlik sistemi</li>
 </ul>
 
+
 ---
+
+<h2>🔌 API Endpoint Dokümantasyonu</h2>
+
+<ul>
+  <li><strong>Auth Endpoints</strong>
+    <ul>
+      <li>POST /api/users/register — Kullanıcı kayıt</li>
+      <li>POST /api/users/login — Kullanıcı giriş</li>
+      <li>Response: JWT token döner</li>
+    </ul>
+  </li>
+
+  <li><strong>Araç Endpoints</strong>
+    <ul>
+      <li>GET /api/cars — Tüm araçları listele</li>
+      <li>GET /api/cars/:id — Araç detay</li>
+      <li>POST /api/cars — Araç ekle (Admin, Token gerekli)</li>
+    </ul>
+  </li>
+
+  <li><strong>Rezervasyon Endpoints</strong>
+    <ul>
+      <li>POST /api/bookings — Rezervasyon oluştur</li>
+      <li>GET /api/bookings/my — Kullanıcı rezervasyonları (Token gerekli)</li>
+    </ul>
+  </li>
+</ul>
+
+---
+
+<h2>⭐ Proje Seviyesi</h2>
+
+<ul>
+  <li>Frontend mimari uygulanmıştır</li>
+  <li>REST API tasarımı yapılmıştır</li>
+  <li>Authentication sistemi vardır</li>
+  <li>Dosya yükleme entegrasyonu vardır</li>
+  <li>MongoDB modelleme kullanılmıştır</li>
+  <li>Gerçek dünya domain kurgusu içerir</li>
+</ul>
+
+---
+
 
 <h2>👨‍💻 Geliştirici</h2>
 <ul>
@@ -135,6 +179,7 @@ IMAGEKIT_URL_ENDPOINT=
   <li>Modern Web Uygulamaları</li>
   <li>GitHub: <a href="https://github.com/sancarhan">github.com/sancarhan</a></li>
 </ul>
+
 
 <h2>📄 Lisans</h2>
 <ul>
