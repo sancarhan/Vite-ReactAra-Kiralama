@@ -212,9 +212,15 @@ IMAGEKIT_URL_ENDPOINT=
 
 
 ---
----
----
 
+<h2>📈 Performans</h2>
+<ul>
+  <li>Vite ile hızlı build süresi</li>
+  <li>Lazy loading uygulanabilir</li>
+  <li>Bileşen bazlı render optimizasyonu</li>
+</ul>
+
+---
 
 <h2>👨‍💻 Geliştirici</h2>
 <ul>
