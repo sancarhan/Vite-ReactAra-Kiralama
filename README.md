@@ -170,6 +170,29 @@ IMAGEKIT_URL_ENDPOINT=
 
 ---
 
+<h2>🚀 Proje Özeti</h2>
+<ul>
+  <li>Bu proje gerçek dünya araç kiralama senaryosuna göre geliştirilmiştir</li>
+  <li>Frontend + Backend full stack mimari içerir</li>
+  <li>Modern React + Node.js stack kullanılmıştır</li>
+  <li>Portföy ve teknik yetkinlik gösterimi amaçlıdır</li>
+</ul>
+
+<h2>🎯 Öğrenme Kazanımları</h2>
+<ul>
+  <li>Component tabanlı frontend mimarisi kurma</li>
+  <li>REST API geliştirme</li>
+  <li>JWT authentication uygulama</li>
+  <li>MongoDB model tasarımı</li>
+  <li>Dosya yükleme servisi entegrasyonu</li>
+  <li>Full stack proje yapısı kurma</li>
+</ul>
+
+---
+---
+---
+---
+
 
 <h2>👨‍💻 Geliştirici</h2>
 <ul>
