@@ -178,6 +178,8 @@ IMAGEKIT_URL_ENDPOINT=
   <li>Portföy ve teknik yetkinlik gösterimi amaçlıdır</li>
 </ul>
 
+---
+
 <h2>🎯 Öğrenme Kazanımları</h2>
 <ul>
   <li>Component tabanlı frontend mimarisi kurma</li>
@@ -189,6 +191,26 @@ IMAGEKIT_URL_ENDPOINT=
 </ul>
 
 ---
+
+<h2>⚙️ Konfigürasyon Notları</h2>
+<ul>
+  <li>.env dosyası gereklidir</li>
+  <li>MongoDB bağlantı bilgisi girilmelidir</li>
+  <li>JWT secret tanımlanmalıdır</li>
+  <li>Image upload servisi anahtarları eklenmelidir</li>
+</ul>
+
+---
+
+<h2>🛡️ Güvenlik</h2>
+<ul>
+  <li>Şifreler bcrypt ile hashlenir</li>
+  <li>JWT tabanlı oturum yönetimi vardır</li>
+  <li>Protected route middleware kullanılmıştır</li>
+  <li>Token doğrulama kontrolü yapılır</li>
+</ul>
+
+
 ---
 ---
 ---
