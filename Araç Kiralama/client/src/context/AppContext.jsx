@@ -26,7 +26,7 @@ export const AppProvider = ({children}) =>{
    
    const {data} = await axios.get('/api/user/data')
    if (data.success) {
-    setUser(data.success)
+    setUser(data.user)
     setIsOwner(data.user.role === 'owner')
    }else{
     navigate('/')
@@ -73,7 +73,7 @@ export const AppProvider = ({children}) =>{
 
 
  const value ={
-  navigate,currency,axios, user, setUser,token, setToken, isOwner, setIsOwner,fetchUser, showLogin,
+  navigate,currency, axios, user, setUser,token, setToken, isOwner, setIsOwner,fetchUser, showLogin,
   setShowLogin, logout, fetchCars, cars, setCars, pickupDate, setPickupDate, returnDate, setReturnDate,
  }
 
