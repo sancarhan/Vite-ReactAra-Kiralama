@@ -10,6 +10,7 @@ Frontend tarafı **React + Vite**, backend tarafı **Node.js + Express + MongoDB
 Kullanıcıların araçları görüntüleyebildiği, rezervasyon işlemleri yapabildiği ve medya yüklemelerinin yönetilebildiği gerçek dünya senaryosuna uygun bir proje yapısı hedeflenmiştir.
 
 ---
+SADADADADASDADAD
 
 # 🧱 Teknoloji Stack
 
